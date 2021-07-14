@@ -2,7 +2,6 @@ import React, { Component, Profiler } from 'react';
 import Projects from './Projects';
 import SocialMediaList from './SocialMediaList';
 import Title from './Title';
-import Jokes from './Jokes';
 import profile from '../assets/profile.png';
 
 // class RegularClass {}
@@ -51,8 +50,6 @@ class App extends Component {
             <Projects />
             <hr />
             <SocialMediaList />
-            <hr />
-            <Jokes />
         </div>
         )
     }

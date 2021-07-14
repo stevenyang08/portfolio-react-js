@@ -28,8 +28,6 @@ class Title extends Component {
             this.setState({ titleIndex, fadeIn: true });
             setTimeout(() => this.setState({ fadeIn: false }), 2000)
         }, 4000);
-
-        console.log('this.titleInterval', this.titleInterval);
     }
 
     render() {
